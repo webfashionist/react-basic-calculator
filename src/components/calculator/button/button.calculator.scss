@@ -1,0 +1,31 @@
+.calculator-button {
+  margin: 0;
+  display: inline-block;
+  background: #afafaf;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  height: 50px;
+  width: 70px;
+  transition: opacity 0.2s ease-in-out;
+
+  &.blue {
+    background: #a084be;
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+  &.gray {
+    background: #a1a1a1;
+  }
+
+  &.darkblue {
+    background: #669acc;
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

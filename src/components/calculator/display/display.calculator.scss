@@ -1,0 +1,21 @@
+.calculator-display {
+  display: block;
+  padding: 20px;
+  background: #282c34;
+  color: aliceblue;
+  min-height: 100px;
+  width: 100%;
+  .calculator-display-input {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 16px;
+    text-align: right;
+    min-height: 20px;
+    opacity: 0.8;
+  }
+  .calculator-display-value {
+    display: block;
+    font-size: 25px;
+    text-align: right;
+  }
+}
